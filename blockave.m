@@ -1,5 +1,5 @@
 function [blockvar, sizearrblock] = blockave(quantity)
-
+%in git-branch-check
 lenquant = length(quantity);
 blockmax = floor(0.4*lenquant);
 blockvar = zeros(floor(0.2*blockmax),1);
